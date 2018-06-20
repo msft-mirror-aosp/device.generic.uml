@@ -25,7 +25,6 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/fstab.uml:root/fstab.uml
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.uml.rc:root/init.uml.rc
-PRODUCT_COPY_FILES += $(LOCAL_PATH)/surfaceflinger.rc:system/etc/init/surfaceflinger.rc
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.eth0.sh:system/bin/init.eth0.sh
 
 PRODUCT_PACKAGES += \
@@ -91,7 +90,6 @@ PRODUCT_PACKAGES += \
     servicemanager \
     shell_and_utilities \
     storaged \
-    surfaceflinger \
     thermalserviced \
     tombstoned \
     tzdatacheck \
