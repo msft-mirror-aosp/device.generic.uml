@@ -130,3 +130,15 @@ PRODUCT_COPY_FILES += \
     system/core/rootdir/init.usb.configfs.rc:root/init.usb.configfs.rc \
     system/core/rootdir/ueventd.rc:root/ueventd.rc \
     system/core/rootdir/etc/hosts:system/etc/hosts
+
+PRODUCT_HOST_PACKAGES += \
+    adb \
+    adbd \
+    e2fsdroid \
+    fastboot \
+    make_f2fs \
+    mke2fs \
+    selinux_policy \
+    shell_and_utilities \
+    tzdatacheck \
+
