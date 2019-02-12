@@ -76,7 +76,6 @@ PRODUCT_PACKAGES += \
     libsigchain \
     libstdc++ \
     libsurfaceflinger \
-    libsurfaceflinger_ddmconnection \
     libsysutils \
     libui \
     libutils \
