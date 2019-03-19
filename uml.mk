@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.uml.rc:root/init.uml.rc
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.eth0.sh:system/bin/init.eth0.sh
 
 PRODUCT_PACKAGES += \
-    adb \
     adbd \
     adbd.recovery \
     usbd \
@@ -46,7 +45,6 @@ PRODUCT_PACKAGES += \
     debuggerd\
     dumpstate \
     dumpsys \
-    fastboot \
     gralloc.default \
     healthd \
     hwservicemanager \
