@@ -131,12 +131,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_HOST_PACKAGES += \
     adb \
-    adbd \
     e2fsdroid \
     fastboot \
     make_f2fs \
     mke2fs \
-    selinux_policy \
-    shell_and_utilities \
     tzdatacheck \
 
