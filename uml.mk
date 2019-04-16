@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.uml.rc:root/init.uml.rc
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/init.eth0.sh:system/bin/init.eth0.sh
 
 PRODUCT_PACKAGES += \
-    adb \
     adbd \
     adbd.recovery \
     usbd \
@@ -46,7 +45,6 @@ PRODUCT_PACKAGES += \
     debuggerd\
     dumpstate \
     dumpsys \
-    fastboot \
     gralloc.default \
     healthd \
     hwservicemanager \
@@ -130,3 +128,12 @@ PRODUCT_COPY_FILES += \
     system/core/rootdir/init.usb.configfs.rc:root/init.usb.configfs.rc \
     system/core/rootdir/ueventd.rc:root/ueventd.rc \
     system/core/rootdir/etc/hosts:system/etc/hosts
+
+PRODUCT_HOST_PACKAGES += \
+    adb \
+    e2fsdroid \
+    fastboot \
+    make_f2fs \
+    mke2fs \
+    tzdatacheck \
+
