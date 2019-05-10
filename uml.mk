@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
     libm \
     libpixelflinger \
     libpower \
-    libsigchain \
     libstdc++ \
     libsurfaceflinger \
     libsysutils \
