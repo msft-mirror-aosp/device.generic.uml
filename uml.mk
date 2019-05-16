@@ -59,8 +59,6 @@ PRODUCT_PACKAGES += \
     libGLESv3 \
     libbinder \
     libc \
-    libc_malloc_debug \
-    libc_malloc_hooks \
     libcutils \
     libdl \
     libgui \
