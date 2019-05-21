@@ -59,8 +59,6 @@ PRODUCT_PACKAGES += \
     libGLESv3 \
     libbinder \
     libc \
-    libc_malloc_debug \
-    libc_malloc_hooks \
     libcutils \
     libdl \
     libgui \
@@ -71,7 +69,6 @@ PRODUCT_PACKAGES += \
     libm \
     libpixelflinger \
     libpower \
-    libsigchain \
     libstdc++ \
     libsurfaceflinger \
     libsysutils \
@@ -131,12 +128,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_HOST_PACKAGES += \
     adb \
-    adbd \
     e2fsdroid \
     fastboot \
     make_f2fs \
     mke2fs \
-    selinux_policy \
-    shell_and_utilities \
     tzdatacheck \
 
