@@ -90,8 +90,8 @@ PRODUCT_PACKAGES += \
 
 # VINTF data
 PRODUCT_PACKAGES += \
-    device_compatibility_matrix.xml \
-    device_manifest.xml \
+    vendor_compatibility_matrix.xml \
+    vendor_manifest.xml \
     framework_manifest.xml \
     framework_compatibility_matrix.xml \
 
