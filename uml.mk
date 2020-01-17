@@ -88,12 +88,12 @@ PRODUCT_PACKAGES += \
     vndservice \
     vndservicemanager \
 
-# VINTF data
+# VINTF stuff for system and vendor (no product / odm / system_ext / etc.)
 PRODUCT_PACKAGES += \
-    device_compatibility_matrix.xml \
-    device_manifest.xml \
-    framework_manifest.xml \
-    framework_compatibility_matrix.xml \
+    vendor_compatibility_matrix.xml \
+    vendor_manifest.xml \
+    system_manifest.xml \
+    system_compatibility_matrix.xml \
 
 # SELinux packages are added as dependencies of the selinux_policy
 # phony package.
