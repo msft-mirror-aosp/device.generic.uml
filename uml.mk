@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
     libm \
     libpower \
     libstdc++ \
-    libsurfaceflinger \
     libsysutils \
     libui \
     libutils \
