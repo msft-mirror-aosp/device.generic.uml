@@ -66,7 +66,6 @@ PRODUCT_PACKAGES += \
     libjpeg \
     liblog \
     libm \
-    libpixelflinger \
     libpower \
     libstdc++ \
     libsurfaceflinger \
