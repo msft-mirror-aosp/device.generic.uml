@@ -11,7 +11,6 @@ TARGET_ARCH_VARIANT := x86_64
 
 TARGET_USER_MODE_LINUX := true
 
-TARGET_USES_64_BIT_BINDER := true
 
 TARGET_USERIMAGES_USE_EXT4 := true
 # Let UML mount userdata.img in a non-sparse format
